@@ -1,0 +1,85 @@
+body {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(40, 104, 188, 0.9);
+    height: 40vh;
+    width: 100%;
+    top: 0;
+}
+
+h1 {
+    color: white;
+    padding-top: 24px;
+}
+
+#numIn {
+    width: 20vw;
+    height: 20vw;
+    max-width: 20vh;
+    max-height: 20vh;
+    background-color: rgba(40, 104, 184, 0.1);
+    border: 1px solid white;
+    border-radius: 4px;
+    outline: none;
+    color: white;
+    font-size: calc(16px + 2vw);
+    font-weight: 800;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    /* For most browsers */
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    /* For Chrome, Safari, Edge, and Opera */
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    margin: 8px;
+    height: 8vw;
+    width: 20vw;
+    max-width: 20vh;
+    border: none;
+    border-radius: 5px;
+    color: #1f2937;
+    font-size: calc(10px + 1vw);
+    box-sizing: border-box;
+}
+
+#main-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
+.conversion-card {
+    background-color: #273549;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+
+}
+
+.conversion-card h3 {
+    color: #838DBB;
+}
+
